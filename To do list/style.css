@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prata", serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+main {
+  width: 70em;
+  margin-top: 8em;
+  position: relative;
+}
+.agenda-buddy-logo {
+  height: 20em;
+  width: 20em;
+  position: absolute;
+  bottom: -15em;
+  left: -30em;
+  box-shadow: 1px 1px 10px 1px #00000020;
+  border-radius: 200px;
+  border: 2px solid #f8d2da;
+}
+h1 {
+  color: #f8c2cd;
+
+  text-align: center;
+  font-size: 2rem;
+}
+input {
+  width: 20em;
+  height: 2em;
+  padding: 0.5em 1em;
+  border: 1px solid goldenrod;
+  border-radius: 11px;
+}
+input placeholder {
+  color: #6f6f6f;
+}
+.checkbox {
+  justify-self: flex-start;
+  padding: 0;
+  width: 1.5em;
+  cursor: pointer;
+}
+.checkbox :hover,
+.chekbox:active {
+  background-color: #f8d2da;
+}
+.btn {
+  border: 0.15em solid goldenrod;
+
+  background-color: #f8d2da;
+  border-radius: 11px;
+  color: #333;
+  font-weight: 600;
+  box-shadow: 1px 1px 10px 1px #00000020;
+  cursor: pointer;
+}
+.input-save-btn {
+  padding: 0.9em 2.5em;
+}
+.btn:hover {
+  background-image: linear-gradient(
+    to bottom left,
+    #e8edec,
+    #f8d2da,
+    #feeeee,
+    #deccd9
+  );
+  border: 0.15em solid #f8d2da;
+}
+.notepad {
+  width: 50em;
+  height: 30em;
+  background-image: linear-gradient(to bottom left, #fff, #f8d2da);
+
+  border: 2px solid #f8d2da;
+  padding: 3em;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 1px #00000044;
+}
+.input-field-section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.task-list {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+li {
+  width: 20em;
+  border-bottom: 1px dotted goldenrod;
+  font-size: 1.4em;
+  text-transform: capitalize;
+  margin-left: 1em;
+}
+
+.li-btn {
+  font-size: 1.4rem;
+  padding: 0.2em 1em;
+  margin-left: 1em;
+}
+ul {
+  margin-top: 3em;
+  margin-left: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

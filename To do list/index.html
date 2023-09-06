@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Agenda Buddy</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>AGENDA BUDDY</h1>
+        <img
+          src="img/Agendabuddylogo.png"
+          alt="agenda buddy logo"
+          class="agenda-buddy-logo"
+        />
+      </header>
+      <section class="notepad">
+        <div class="input-field-section">
+          <input
+            type="text"
+            placeholder="type your next task....."
+            id="input-el"
+          />
+
+          <button class="input-save-btn btn" id="input-save-btn">
+            Add Task
+          </button>
+        </div>
+        <ul id="ul-el"></ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
